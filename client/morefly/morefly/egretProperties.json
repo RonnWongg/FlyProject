@@ -1,0 +1,29 @@
+{
+	"native": {
+		"path_ignore": [],
+		"android_path": "../demoA"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1
+	},
+	"egret_version": "3.0.8",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "socket.io",
+			"path": "../libsrc"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name":"tween"
+		}
+	]
+}
